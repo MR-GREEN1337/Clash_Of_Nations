@@ -1,5 +1,7 @@
 # Clash of Nations
 
+![Clash](/assets/Dashboard.png)
+
 Clash of Nations is an engaging and immersive game that puts you in the shoes of a country leader, enterprise CEO, or any other role you choose. The game aims to simulate the complexities of geopolitics, offering both entertainment and educational value.
 
 ## Features
