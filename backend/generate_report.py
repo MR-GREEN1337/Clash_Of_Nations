@@ -52,7 +52,7 @@ def node_game(game: Game):
     for node in game["enterprises"]:
         if node["flag"] == "Human":
             if "military_power" in node:
-                return "Country", node["name"]
+                return ["Country", node["name"]]
             
             else:
                 return ["Enterprise", node["name"]]
