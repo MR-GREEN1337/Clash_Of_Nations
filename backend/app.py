@@ -235,7 +235,7 @@ async def stream():
                 result = dict(event)
                 result = next(iter(result.values()))
                 result["messages"] = [message.content for message in result["messages"]]
-                if i == 5:
+                if i == 20:
                     yield json.dumps(result)
                     break
                 yield json.dumps(result)
