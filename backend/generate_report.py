@@ -41,7 +41,7 @@ async def generate_markdown(game: Game, tools):
     chain = prompt | llm
 
     output = chain.invoke({"messages": [HumanMessage(content="Generate a long good report")]})
-    print(output.content)
+    #print(output.content)
     html_content = markdown2.markdown(output.content)
     uuid_key = uuid.uuid4()
     output_pdf = f"report_{uuid_key}.pdf"
